@@ -1,3 +1,11 @@
+/*
+Amerike University
+Author: Ali Angel
+Work #: 23
+Date: 22/04/25
+Description: This program will act as a bank application that, through the use of classes and class functions 
+makes it available to set an user, show the info of the bank account and alter the money stored in it.
+*/
 
 #include <iostream>
 #include <conio.h>
@@ -110,6 +118,8 @@ int main()
     secondAccount.makeDeposit(200);
     secondAccount.makeWithdrawal(5000);
     secondAccount.getAcctInfo();
+
+    return 0;
 }
 
 void pressAnyKey()
